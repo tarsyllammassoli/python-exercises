@@ -1,0 +1,11 @@
+numeros = []
+pares = 0
+
+for i in range(5):
+    num = int(input(f"Digite {i + 1}º numero: "))
+    numeros.append(num)
+    if num % 2 == 0:
+        pares = pares + num
+
+print(f"A soma dos números pares foi: {pares}\n")
+print(f"A lista completa foi: {numeros}")
